@@ -40,7 +40,7 @@ const Header = () => {
           <div className="navlogo">
             <img src={logo} alt="logo" />
 
-            <a href="" onMouseEnter={handlePlayMouseEnter}>
+            <a href="/" onMouseEnter={handlePlayMouseEnter}>
               <FontAwesomeIcon className="icon" icon={faAngleDown} />
             </a>
             {playDropdownVisible && (
@@ -172,12 +172,13 @@ const Header = () => {
               </div>
             )}
           </div>
+       
           <hr className="icon" />
           <h2>STORE</h2>
           <div className="navLinks">
             
-            <a href="#">Support</a>
-            <a href="#" onMouseEnter={handleDistributeMouseEnter}>
+            <a href="/">Support</a>
+            <a href="/" onMouseEnter={handleDistributeMouseEnter}>
               Distribute
             </a>
             {distributeDropdownVisible && (
@@ -206,15 +207,16 @@ const Header = () => {
 
         <div className="navright">
        
-          <a href="">
+          <a href="/">
             <FontAwesomeIcon className="icon" icon={faGlobe} />
           </a>
-          <a href="">
+          <a href="/">
             <FontAwesomeIcon className="icon1 " icon={faUser} />
+            <FontAwesomeIcon icon="fa-brands fa-twitter" />
           </a>
           <button>Download</button>
         </div>
-        <a href=" " id="togglebtn">
+        <a href="/" id="togglebtn">
             <FontAwesomeIcon className="icon" icon={faBars} />
           </a>
       </div>
@@ -222,11 +224,11 @@ const Header = () => {
       <div className="nav1">
         <div className="nav1Links">
           <input type="text" placeholder="search store" />
-          <a id="dis" href="">
+          <a href="/" id="dis" >
             Discover
           </a>
-          <a href="">Browse</a>
-          <a href="">News</a>
+          <a href="/">Browse</a>
+          <a href="/">News</a>
         </div>
       </div>
     </>
@@ -234,3 +236,4 @@ const Header = () => {
 };
 
 export default Header;
+  
