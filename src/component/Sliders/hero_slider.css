@@ -1,0 +1,90 @@
+.hero-slider {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.hero-slider .slider-img {
+  width: 80%;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  opacity: 0.6;
+}
+
+.hero-slider .slider-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-contand {
+  position: absolute;
+  width: 60%;
+  height: 70%;
+}
+.img-contand .contend {
+  width: 50%;
+  height: 100%;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.img-contand .contend p
+ {
+  color: #fff !important;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  margin-top: 1rem;
+}
+
+.btn-group button {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  border: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+.btn-group #wishlist {
+  background: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.add {
+  margin-right: 5px;
+}
+.img-contand img {
+  width: 240px;
+}
+
+.hero-slider .slider-list {
+  width: 20%;
+  height: 100%;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-slider .slider-list .list-card {
+  width: 100%;
+  height: 83px;
+  display: flex;
+  padding: 0.8rem;
+  gap: 1rem;
+  margin-bottom: 1px;
+  border-radius: 10px;
+  align-items: center;
+  transition: all 300ms ease;
+}
+.hero-slider .slider-list .list-card:hover {
+  color: var(--secondary-color);
+  background-color: var(--hover-color);
+}
+.hero-slider .slider-list .list-card img {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
