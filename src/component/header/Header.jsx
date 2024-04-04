@@ -3,11 +3,15 @@ import "../header/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDown,
+  faBars,
   faGlobe,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/epicLogo.png";
 import valorant from "../../assets/valorant.svg";
+
+
+
 
 const Header = () => {
   const [playDropdownVisible, setPlayDropdownVisible] = useState(false);
@@ -169,8 +173,9 @@ const Header = () => {
             )}
           </div>
           <hr className="icon" />
+          <h2>STORE</h2>
           <div className="navLinks">
-            <h2>STORE</h2>
+            
             <a href="#">Support</a>
             <a href="#" onMouseEnter={handleDistributeMouseEnter}>
               Distribute
@@ -200,6 +205,7 @@ const Header = () => {
         </div>
 
         <div className="navright">
+       
           <a href="">
             <FontAwesomeIcon className="icon" icon={faGlobe} />
           </a>
@@ -208,6 +214,9 @@ const Header = () => {
           </a>
           <button>Download</button>
         </div>
+        <a href=" " id="togglebtn">
+            <FontAwesomeIcon className="icon" icon={faBars} />
+          </a>
       </div>
 
       <div className="nav1">
