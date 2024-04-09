@@ -173,7 +173,7 @@ const Header = () => {
             )}
           </div>
        
-          <hr className="icon" />
+          <hr className="hricon" />
           <h2>STORE</h2>
           <div className="navLinks">
             
