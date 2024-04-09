@@ -129,6 +129,7 @@ a:hover {
   color: var(--secondary-color);
   background-color: var(--hover-color);
   border: none;
+
 }
 
 .navLinks h2 {
@@ -138,7 +139,7 @@ a:hover {
   transform: scale(1, 1.2);
 }
 
-hr {
+.hricon {
   height: 2.5rem;
   opacity: 0.4;
 }
