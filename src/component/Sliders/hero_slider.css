@@ -1,9 +1,6 @@
-.container {
-  width: 100%;
-  height: 500px;
-}
+  
 .hero-slider {
-  width: 80%;
+  width: 100%;
   height: 100%;
   position: relative;
 }
@@ -23,13 +20,14 @@
 
 .img-contand {
   position: absolute;
+  width: 80%;
   height: 100%;
   top: 0;
   display: flex;
 }
 
 .img-contand .contend {
-  width: 40%;
+  width: 50%;
   height: 100%;
   padding: 1.5rem 2rem;
   display: flex;
@@ -76,10 +74,11 @@ span{
   width: 20%;
   height: 100%;
   padding: 0 1.5rem;
+
 }
 
-.hero-slider .slider-list .list-card {
-  width: 100%;
+ .slider-list .list-card {
+  width: 50%;
   height: 83px;
   display: flex;
   padding: 0.8rem;
@@ -89,15 +88,15 @@ span{
   align-items: center;
   transition: all 300ms ease;
 }
-
-.hero-slider .slider-list .list-card:hover {
+ .slider-list .list-card:hover {
   color: var(--secondary-color);
   background-color: var(--hover-color);
 }
 
-.hero-slider .slider-list .list-card img {
-  width: 30%;
+ .slider-list .list-card img {
+  width: 10%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 10px;  
 }
+  
