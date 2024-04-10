@@ -52,3 +52,55 @@
 .resources_1 ul li{
     margin-bottom: 0.5rem;
 }
+
+hr{
+    
+    border: 1px solid var(--text-color);
+}
+
+
+.paraDiv{
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    margin: 2rem 0;
+
+}
+
+.paraDiv .para{
+    width: 50%;
+    line-height: 24px;
+
+}
+.policy_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy_section ol{
+    display: flex;
+    list-style: none;
+    font-size: 0.75rem;
+    color: var(--primary-color);
+    
+}
+
+.policy_section ol li{
+    margin-right: 1rem;
+}
+
+
+
+.epic_unreal{
+   display: flex;
+}
+
+.epic_unreal .logo_policy{
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
+.epic_unreal .logo_policy img{
+    width: 100%;
+    height: 100%;
+}
