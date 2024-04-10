@@ -24,7 +24,7 @@ const Heroslider = () => {
 
   return (
     <>
-    <div className="container">
+  
       <Slider {...settings}> 
       {SliderData.map((s) => (
         <div className="hero-slider">
@@ -52,14 +52,14 @@ const Heroslider = () => {
       ))}
       </Slider>
         <div className="slider-list">
-            {/*{SliderData.map((s) => (
-              <div key={s.id} className="list-card">
-                <img src={s.sliderImg} alt="" />
-                <h5>{s.sliderTitle}</h5>
+            {SliderData.map((sd) => (
+              <div  className="list-card">
+                <img src={sd.sliderImg} alt="" />
+                <h5>{sd.sliderTitle}</h5>
               </div>
-            ))}*/}
+            ))}
           </div> 
-          </div>
+          
     </>
   );
 };
