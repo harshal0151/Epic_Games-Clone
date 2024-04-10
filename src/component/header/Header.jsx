@@ -8,7 +8,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/epicLogo.png";
-import valorant from "../../assets/valorant.svg";
+import { playData , DiscoverData , CreaterData} from "../constants";
 
 
 
@@ -48,125 +48,38 @@ const Header = () => {
                 className="dropdown-content"
                 onMouseLeave={handlePlayMouseLeave}
               >
+               
                 <div className="optionLeft">
                   <div className="play">
                     <h2>Play</h2>
-                    <ul>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
+                    {playData.map((p) => (
+                    <div className="playcontainer">
+                          <img src={p.icon} alt="" />
+                          <p>{p.title}</p>
                         </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                    </ul>
+                        ))}
                   </div>
+
                   <div className="play">
                     <h2>Discover</h2>
-                    <ul>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
+                    {DiscoverData.map((d) => (
+                    <div className="playcontainer">
+                          <img src={d.icon} alt="" />
+                          <p>{d.title}</p>
                         </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                    </ul>
+                        ))}
                   </div>
                 </div>
+                
                 <div className="optionLeft">
-                  <div className="play">
+                <div className="play">
                     <h2>Create</h2>
-                    <ul>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
+                    {CreaterData.map((c) => (
+                    <div className="playcontainer">
+                          <img src={c.icon} alt="" />
+                          <p>{c.title}</p>
                         </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="playcontainer">
-                          <img src={valorant} alt="" />
-                          <p>Valorant</p>
-                        </div>
-                      </li>
-                    </ul>
+                        ))}
                   </div>
                 </div>
               </div>
