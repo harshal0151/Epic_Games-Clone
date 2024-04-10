@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <span>made by</span>
+          <span>Made By Epic Games</span>
           <div className="resources">
             <div className="resources_1">
               <ul>
