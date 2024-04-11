@@ -19,7 +19,7 @@ const Footer = () => {
       <section className="footer_div">
         <div className="socials">
           <div className="social_left">
-            <FontAwesomeIcon className="icon" icon={faFacebook} />
+            <a href=""><FontAwesomeIcon className="icon" icon={faFacebook} /></a>
             <FontAwesomeIcon className="icon" icon={faTwitter} />
             <FontAwesomeIcon className="icon" icon={faYoutube} />
           </div>
@@ -29,34 +29,34 @@ const Footer = () => {
         </div>
 
         <div className="footer_top">
-          <span>Resources</span>
+          <span className="temp">Resources</span>
           <div className="resources">
             <div className="resources_1">
              
               <ul>
-                <li>Support-A-Creator</li>
-                <li>Distribute on Epic Games</li>
-                <li>Careers</li>
-                <li>Company</li>
+                <a href=""><li>Support-A-Creator</li></a>
+                <a href=""><li>Distribute on Epic Games</li></a>
+                <a href=""><li>Careers</li></a>
+                <a href=""><li>Company</li></a>
               </ul>
               
             </div>
 
             <div className="resources_1">
               <ul>
-                <li>Support-A-Creator</li>
-                <li>Distribute on Epic Games</li>
-                <li>Careers</li>
-                <li>Company</li>
+                <a href=""><li>Fan Art Policy</li></a>
+                <a href=""><li>UX Research</li></a>
+                <a href=""><li>Store EULA</li></a>
+                
               </ul>
             </div>
 
             <div className="resources_1">
               <ul>
-                <li>Support-A-Creator</li>
-                <li>Distribute on Epic Games</li>
-                <li>Careers</li>
-                <li>Company</li>
+              <a href=""><li>Online Services</li></a>
+                <a href=""><li>Community Rules</li></a>
+                <a href=""><li>Epic Newsroom</li></a>
+                
               </ul>
             </div>
           </div>
@@ -65,19 +65,19 @@ const Footer = () => {
           <div className="resources">
             <div className="resources_1">
               <ul>
-                <li>Support-A-Creator</li>
-                <li>Distribute on Epic Games</li>
-                <li>Careers</li>
-                <li>Company</li>
+              <a href=""><li>Battle Breakers</li></a>
+                <a href=""><li>Fortnite</li></a>
+                <a href=""><li>Infinity Blade</li></a>
+                
               </ul>
             </div>
 
             <div className="resources_1">
               <ul>
-                <li>Support-A-Creator</li>
-                <li>Distribute on Epic Games</li>
-                <li>Careers</li>
-                <li>Company</li>
+              <a href=""><li>Robo Recall</li></a>
+                <a href=""><li>Shadow Complex</li></a>
+                <a href=""><li>Unreal Tournament</li></a>
+                
               </ul>
             </div>
           </div>
@@ -93,9 +93,9 @@ const Footer = () => {
         <div className="policy_section">
           <div className="policy">
             <ol>
-              <li>Terms of Service</li>
-              <li>Privacy Policy</li>
-              <li>Store Refund Policy</li>
+              <a href=""><li>Terms of Service</li></a>
+              <a href=""><li>Privacy Policy</li></a>
+              <a href=""><li>Store Refund Policy</li></a>
             </ol>
           </div>
 
@@ -104,11 +104,11 @@ const Footer = () => {
           <div className="epic_unreal">
 
           <div className="logo_policy">
-          <img src={logo} alt="logo" />
+          <a href=""><img src={logo} alt="logo" /></a>
           </div>
 
           <div className="logo_policy">
-          <img src={Unreal} alt="unreal" />
+          <a href=""><img src={Unreal} alt="unreal" /></a>
           </div>
           </div>
           

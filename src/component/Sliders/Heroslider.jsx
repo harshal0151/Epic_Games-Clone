@@ -36,8 +36,7 @@ const Heroslider = () => {
               <img src={s.sliderLogo} alt="/" />
               <div>
                 <p>{s.info}</p>
-              </div>
-             
+              </div>             
               <div className="btn-group">
               <span>starting at ₹ {s.price}/-</span>
                 <button>Wishlist Now</button>
