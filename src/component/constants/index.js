@@ -1,4 +1,4 @@
-//Img Slider
+//Img Slider Hero component
 // import Img1 from "../../assets/asset 0.jpeg"
 import Img2 from "../../assets/asset 1.jpeg";
 import Img3 from "../../assets/asset 2.jpeg";
@@ -16,7 +16,8 @@ import ImgLogo5 from "../../assets/asset 89.png";
 import ImgLogo6 from "../../assets/asset 90.png";
 import ImgLogo7 from "../../assets/asset 91.png";
 
-//header svg play
+
+//header svg play Header Nav
 import Svg1 from "../../assets/gameIconsSvg/valorant.svg";
 import Svg2 from "../../assets/gameIconsSvg/icons8-fortnite.svg";
 import Svg3 from "../../assets/gameIconsSvg/fall-guys.svg";
