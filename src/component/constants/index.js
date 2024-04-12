@@ -110,42 +110,42 @@ import Svg6 from "../../assets/gameIconsSvg/icons8-epic-games.svg";
 
 export const SliderData = [
   {
-    sliderTitle: "Horizon Foribidden",
+    sliderTitle: "Star Wars Outlaws",
     sliderImg: Img7,
     sliderLogo: ImgLogo7,
     info: "Outsourced Educational Programs: Offering businesses comprehensive educational programs that can be seamlessly integrated into their existing platforms or services.",
     price: "800",
   },
   {
-    sliderTitle: "Horizon Foribidden",
+    sliderTitle: "Marvel Rivals",
     sliderImg: Img2,
     sliderLogo: ImgLogo2,
     info: "Outsourced Educational Programs: Offering businesses comprehensive educational programs that can be seamlessly integrated into their existing platforms or services.",
     price: "1,500",
   },
   {
-    sliderTitle: "Horizon Foribidden",
+    sliderTitle: "Path of Extle",
     sliderImg: Img3,
     sliderLogo: ImgLogo3,
     info: "Outsourced Educational Programs: Offering businesses comprehensive educational programs that can be seamlessly integrated into their existing platforms or services.",
     price: "600",
   },
   {
-    sliderTitle: "Horizon Foribidden",
+    sliderTitle: "Wuthering Waves",
     sliderImg: Img4,
     sliderLogo: ImgLogo4,
     info: "Outsourced Educational Programs: Offering businesses comprehensive educational programs that can be seamlessly integrated into their existing platforms or services.",
     price: "1,100",
   },
   {
-    sliderTitle: "Horizon Foribidden",
+    sliderTitle: "Valorant",
     sliderImg: Img5,
     sliderLogo: ImgLogo5,
     info: "Outsourced Educational Programs: Offering businesses comprehensive educational programs that can be seamlessly integrated into their existing platforms or services.",
     price: "1,200",
   },
   {
-    sliderTitle: "Horizon Foribidden",
+    sliderTitle: "Frostpunk 2",
     sliderImg: Img6,
     sliderLogo: ImgLogo6,
     info: "Outsourced Educational Programs: Offering businesses comprehensive educational programs that can be seamlessly integrated into their existing platforms or services.",
