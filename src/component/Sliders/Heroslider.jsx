@@ -67,6 +67,32 @@ const Heroslider = () => {
             ))}
           </Slider>
         </div>
+    <div className="container">
+      <Slider {...settings}> 
+      {SliderData.map((s) => (
+        <div className="hero-slider">
+          <div className="slider-img">
+            <img src={s.sliderImg} alt="" />
+          </div>
+          <div className="img-contand">
+            <div className="contend">
+              <img src={s.sliderLogo} alt="/" />
+              <div>
+                <p>{s.info}</p>
+              </div>             
+              <div className="btn-group">
+              <span>starting at ₹ {s.price}/-</span>
+                <button>Wishlist Now</button>
+                <button id="wishlist">
+                  <FontAwesomeIcon className="add" icon={faCirclePlus} />
+                  Add To Wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+      </Slider>
         <div className="slider-list">
           {SliderData.map((sd, index) => (
             <div
