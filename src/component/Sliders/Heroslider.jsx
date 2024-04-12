@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Sliders/hero_slider.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
@@ -9,6 +9,8 @@ import { SliderData } from "../constants";
 import Slider from "react-slick";
 
 const Heroslider = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
   const settings = {
     arrows: false,
     dots: false,
@@ -22,13 +24,22 @@ const Heroslider = () => {
     pauseOnHover: false,
   };
 
+  const handleSliderHover = (index) => {
+    setHoveredIndex(index);
+  };
+
   return (
     <>
       <div className="container">
         <div className="slider">
           <Slider {...settings}>
-            {SliderData.map((s) => (
-              <div className="hero-slider">
+            {SliderData.map((s, index) => (
+              <div
+                key={index}
+                className="hero-slider"
+                onMouseEnter={() => handleSliderHover(index)}
+                onMouseLeave={() => handleSliderHover(null)}
+              >
                 <div className="slider-img">
                   <img src={s.sliderImg} alt="" />
                 </div>
@@ -43,7 +54,10 @@ const Heroslider = () => {
                       <span>starting at ₹ {s.price}/-</span>
                       <button>Wishlist Now</button>
                       <button id="wishlist">
-                        <FontAwesomeIcon className="add" icon={faCirclePlus} />
+                        <FontAwesomeIcon
+                          className="add"
+                          icon={faCirclePlus}
+                        />
                         Add To Wishlist
                       </button>
                     </div>
@@ -54,8 +68,13 @@ const Heroslider = () => {
           </Slider>
         </div>
         <div className="slider-list">
-          {SliderData.map((sd) => (
-            <div className="list-card">
+          {SliderData.map((sd, index) => (
+            <div
+              key={index}
+              className={`list-card ${hoveredIndex === index ? "hovered" : ""}`}
+              onMouseEnter={() => handleSliderHover(index)}
+              onMouseLeave={() => handleSliderHover(null)}
+            >
               <img src={sd.sliderImg} alt="" />
               <h5>{sd.sliderTitle}</h5>
             </div>
