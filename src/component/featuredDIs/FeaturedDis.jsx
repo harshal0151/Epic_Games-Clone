@@ -1,12 +1,49 @@
-import React from "react"
-
-
+import React from "react";
+import { GameData } from "../constants";
+import "../featuredDIs/featured_dis.css";
+import Slider from "react-slick";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const FeaturedDiscounts = () => {
-    return(
-        <div>
-            <h1>Featured Games</h1>
-        </div>
-    )
-}
+  const settings = {
+    arrows: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    pauseOnHover: false,
+  };
+
+  return (
+    <div className="Feature-container">
+      <div className="feature-title">
+        <a href="/">
+          <span>
+            Epic Sarving Spotlight{" "}
+            <FontAwesomeIcon className="icon" icon={faAngleRight} />{" "}
+          </span>{" "}
+        </a>
+      </div>
+
+      <Slider {...settings}>
+        {GameData.map((f) => (
+          <div className="feature-card">
+            <div className="feature-img">
+              <img src={f.GameImg} alt="" />
+            </div>
+            <div className="feature-content">
+              <p>BASE GAME</p>
+              <span>{f.GameName}</span>
+              <div className="price-discount">
+                <button>- {f.offer}</button>
+                <h4>₹{f.Price}.00</h4>
+              </div>
+            </div>
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+};
 export default FeaturedDiscounts;
