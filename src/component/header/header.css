@@ -195,10 +195,14 @@ a:hover {
   display: flex;
   align-items: center; 
   gap: 1.2rem;
-  font-size: 1rem;
+ 
+}
+.nav1 .nav1Links a{
+  font-size: 0.8rem;
 }
 .nav1 .nav1Links #dis {
   color: #fff;
+  font-size: 0.9rem;
 }
 
 .nav1 .nav1Links input {
