@@ -6,6 +6,7 @@
 
 .slider{
   width: 80%;
+  height: 100%;
 
 }
 
@@ -19,7 +20,7 @@
   width: 100%;
   border-radius: 15px;
   overflow: hidden;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .hero-slider .slider-img img {
@@ -37,7 +38,7 @@
 }
 
 .img-contand .contend {
-  width: 60%;
+  width: 50%;
   height: 100%;
   padding: 1.5rem 2rem;
   display: flex;
