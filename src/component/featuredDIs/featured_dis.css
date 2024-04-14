@@ -47,10 +47,27 @@
   transition: background-color 0.3s ease;
   
 }
-
 .feature-img:hover::before {
   background-color: rgba(255, 255, 255, 0.15); 
 }
+
+/* bug need to fix on hover  */
+.feature-img .add-icon{
+  display: none;
+}
+.feature-img .add-icon:hover{
+  display: block;
+  z-index:  999;
+}
+
+.feature-img #icon{
+ position: absolute;
+ top: 15px;
+ right:  15px;
+ font-size: 1rem;
+ /* display: none; */
+}
+
 
 
 
