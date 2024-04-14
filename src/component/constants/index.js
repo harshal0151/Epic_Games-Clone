@@ -38,6 +38,7 @@ import  GameImg8 from "../../assets/featuredGames/asset 8.jpeg"
 import  GameImg9 from "../../assets/featuredGames/asset 9.jpeg"
 import  GameImg10 from "../../assets/featuredGames/asset 10.jpeg"
 import  GameImg11 from "../../assets/featuredGames/asset 20.jpeg"
+import  GameImg12 from "../../assets/featuredGames/asset 13.jpeg"
 
 
 //Hero Slider 
@@ -265,6 +266,14 @@ export const GameData = [
     desc: "Description for Game11",
     Price: 3499,
     GameImg: GameImg11
+  },
+  {
+    GameName: "Game12",
+    offerPrice: 2099,
+    offer: "30%",
+    desc: "Description for Game11",
+    Price: 3499,
+    GameImg: GameImg12
   },
   // Add more game objects as needed
 ];
