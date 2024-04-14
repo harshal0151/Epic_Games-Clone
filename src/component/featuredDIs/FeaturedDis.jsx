@@ -18,7 +18,7 @@ const FeaturedDiscounts = () => {
   return (
     <div className="Feature-container">
       <div className="feature-title">
-        <a href="/">
+        <a href="/brows">
           <span>
             Epic Sarving Spotlight{" "}
             <FontAwesomeIcon className="icon" icon={faAngleRight} />{" "}

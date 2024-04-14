@@ -1,0 +1,79 @@
+.brows {
+  width: 100%;
+  height: 100%;
+}
+.brows .show-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.brows .show-list select {
+  text-align: center;
+}
+.brows-container {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.brows-container .brows-card {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.brows-img {
+  width: 100%;
+  height: 70%;
+}
+
+.brows-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.brows-content {
+  width: 100%;
+  height: 30%;
+  padding-top: 1rem;
+  margin: 0 0.5rem;
+}
+
+.brows-content p {
+  font-size: 0.6rem;
+  color: var(--hover-color);
+}
+
+.brows-content span {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+.price-discount {
+  display: flex;
+  gap: 2rem;
+  color: var(--secondary-color);
+  margin-top: 1rem;
+}
+
+.price-discount button {
+  background-color: #007bff;
+  font-size: 0.7rem;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.price-discount button:hover {
+  background-color: #0056b3;
+}
+
+.price-discount h4 {
+  font-size: 1rem;
+  font-weight: normal;
+}
