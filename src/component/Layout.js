@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./header/Header"
-import Home from "../page/Home";
+// import Home from "../page/Home";
+// import Brows from "../page/Brows";
 import Footer from "../component/Footer/Footer"
+import Routers from "../router/Routers";
 
 
 const Layout = () =>{
@@ -9,7 +11,7 @@ const Layout = () =>{
         <> 
            <Header/>
           <div className="routes">
-          <Home/>
+            <Routers/>
           </div>
            <Footer/>
         </>

@@ -26,87 +26,21 @@ import Svg5 from "../../assets/gameIconsSvg/icons8-unreal-engine-50-2.svg";
 import Svg6 from "../../assets/gameIconsSvg/icons8-epic-games.svg";
 
 
-// export const footerLinks = [
-//   {
-//     title: "Help Links",
-//     links: [
-//       { name: "What is ICO", link: "/" },
-//       { name: "Token", link: "/" },
-//       { name: "Road Map", link: "/" },
-//       { name: "Advisor", link: "/" },
-//     ],
-//   },
-//   {
-//     title: "Quick Links",
-//     links: [
-//       { name: "What is ICO", link: "/" },
-//       { name: "Token", link: "/" },
-//       { name: "Road Map", link: "/" },
-//       { name: "Advisor", link: "/" },
-//     ],
-//   },
-//   {
-//     title: "Newsletter",
-//     links: [],
-//   },
-// ];
+//Game Img
+import  GameImg1 from "../../assets/featuredGames/asset 1.jpeg"
+import  GameImg2 from "../../assets/featuredGames/asset 2.jpeg"
+import  GameImg3 from "../../assets/featuredGames/asset 3.jpeg"
+import  GameImg4 from "../../assets/featuredGames/asset 19.jpeg"
+import  GameImg5 from "../../assets/featuredGames/asset 18.jpeg"
+import  GameImg6 from "../../assets/featuredGames/asset 16.jpeg"
+import  GameImg7 from "../../assets/featuredGames/asset 7.jpeg"
+import  GameImg8 from "../../assets/featuredGames/asset 8.jpeg"
+import  GameImg9 from "../../assets/featuredGames/asset 9.jpeg"
+import  GameImg10 from "../../assets/featuredGames/asset 10.jpeg"
+import  GameImg11 from "../../assets/featuredGames/asset 20.jpeg"
 
-// export const socialMedia = [
-//   { src: facebook, alt: "facebook logo" },
-//   { src: twitter, alt: "twitter logo" },
-//   { src: instagram, alt: "instagram logo" },
-// ];
 
-// export const data = [
-//   {
-//     name: "Harshal patil",
-//     src: faq,
-//     alt: "faq logo",
-//     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-//   },
-
-//   {
-//     name: "Harshal patil",
-//     src: faq,
-//     alt: "faq logo",
-//     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//   },
-
-//   {
-//     name: "Harshal patil",
-//     src: faq,
-//     alt: "faq logo",
-//     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-//   },
-
-//   {
-//     name: "Harshal patil",
-//     src: faq,
-//     alt: "faq logo",
-//     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//   },
-
-//   {
-//     name: "Harshal patil",
-//     src: faq,
-//     alt: "faq logo",
-//     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-//   },
-
-//   {
-//     name: "Harshal patil",
-//     src: faq,
-//     alt: "faq logo",
-//     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-//   },
-
-//   {
-//     name: "Harshal patil",
-//     src: faq,
-//     alt: "faq logo",
-//     review: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-//   },
-// ];
+//Hero Slider 
 
 export const SliderData = [
   {
@@ -153,6 +87,7 @@ export const SliderData = [
   },
 ];
 
+//Header  data
 export const playData = [
   {
     title: "Valorant",
@@ -237,3 +172,107 @@ export const CreaterData = [
     icon: Svg4,
   },
 ];
+
+
+
+//Game Data  for the GameCard component
+
+export const GameData = [
+  {
+    GameName: "Game1",
+    offerPrice: 19.99,
+    offer: "50%",
+    desc: "Description for Game1",
+    Price: 3999,
+    GameImg: GameImg1
+  },
+  {
+    GameName: "Game2",
+    offerPrice: 24.99,
+    offer: "30%",
+    desc: "Description for Game2",
+    Price: 3499,
+    GameImg: GameImg2
+  },
+  {
+    GameName: "Game3",
+    offerPrice: 14.99,
+    offer: "20%",
+    desc: "Description for Game3",
+    Price: 1999,
+    GameImg: GameImg3
+  },
+  {
+    GameName: "Game4",
+    offerPrice: 19.99,
+    offer: "50%",
+    desc: "Description for Game4",
+    Price: 3999,
+    GameImg: GameImg4
+  },
+  {
+    GameName: "Game5",
+    offerPrice: 24.99,
+    offer: "30%",
+    desc: "Description for Game5",
+    Price: 3499,
+    GameImg: GameImg5
+  },
+  {
+    GameName: "Game6",
+    offerPrice: 14.99,
+    offer: "20%",
+    desc: "Description for Game6",
+    Price: 1999,
+    GameImg: GameImg6
+  },
+  {
+    GameName: "Game7",
+    offerPrice: 19.99,
+    offer: "50%",
+    desc: "Description for Game7",
+    Price: 3999,
+    GameImg: GameImg7
+  },
+  {
+    GameName: "Game8",
+    offerPrice: 24.99,
+    offer: "30%",
+    desc: "Description for Game8",
+    Price: 3499,
+    GameImg: GameImg8
+  },
+  {
+    GameName: "Game9",
+    offerPrice: 14.99,
+    offer: "20%",
+    desc: "Description for Game9",
+    Price: 1999,
+    GameImg: GameImg9
+  },
+  {
+    GameName: "Game10",
+    offerPrice: 19.99,
+    offer: "50% ",
+    desc: "Description for Game10",
+    Price: 3999,
+    GameImg: GameImg10
+  },
+  {
+    GameName: "Game11",
+    offerPrice: 24.99,
+    offer: "30%",
+    desc: "Description for Game11",
+    Price: 3499,
+    GameImg: GameImg11
+  },
+  // Add more game objects as needed
+];
+
+
+
+
+
+
+
+
