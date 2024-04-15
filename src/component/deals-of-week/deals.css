@@ -1,4 +1,6 @@
 .deals-of-week{
+    height: 100%;
+    margin: 3rem 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -7,6 +9,7 @@
 
 .deals-of-week .card{
     width: 31.5%;
+    
     
 }
 .deals-of-week .card .card-img{
