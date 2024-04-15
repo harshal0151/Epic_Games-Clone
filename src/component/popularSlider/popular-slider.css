@@ -1,0 +1,143 @@
+.PopularSlider-container {
+    width: 100%;
+    margin: 5rem 0;
+  }
+  
+  .PopularSlider-container .PopularSlider-title {
+    width: 100%;
+  }
+  
+  .PopularSlider-container .PopularSlider-title span {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.1rem;
+  }
+  .PopularSlider-container .PopularSlider-title .icon {
+    font-size: 0.8rem;
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .PopularSlider-container .PopularSlider-title .icon:hover {
+    margin-left: 5px;
+  }
+  
+  .PopularSlider-container .PopularSlider-card {
+    padding: 0.7rem;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+  .PopularSlider-img {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    transition: opacity 0.3s ease; 
+  }
+  
+  .PopularSlider-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease;
+    
+  }
+  .PopularSlider-img:hover::before {
+    background-color: rgba(255, 255, 255, 0.15); 
+  }
+  
+  /* bug need to fix on hover  */
+  .PopularSlider-img .add-icon{
+    display: none;
+  }
+  .PopularSlider-img .add-icon:hover{
+    display: block;
+    z-index:  999;
+  }
+  
+  .PopularSlider-img #icon{
+   position: absolute;
+   top: 15px;
+   right:  15px;
+   font-size: 1rem;
+   /* display: none; */
+  }
+  
+  
+  
+  
+  .PopularSlider-img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .PopularSlider-content {
+    width: 100%;
+    height: 30%;
+    padding-top: 1rem;
+    margin: 0 .5rem;
+    
+  }
+  
+  .PopularSlider-content p {
+    font-size: 0.6rem;
+    color: var(--hover-color);
+  }
+   
+  .PopularSlider-content span {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: var( --secondary-color);
+  }
+  .PopularSlider-discount {
+    display: flex;
+    gap: 2rem;
+    color: var(--secondary-color);
+    margin-top: 1rem;
+  }
+  
+  .PopularSlider-discount button {
+    background-color: #007bff;
+    font-size: 0.7rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .PopularSlider-discount button:hover {
+    background-color: #0056b3;
+  }
+  
+  .PopularSlider-discount h4 {
+    font-size: 1rem;
+    font-weight: normal;
+  
+   
+  }
+  
+  .slick-prev {
+    top: -25px;
+    left: 1045px;
+    z-index: 999;
+  }
+  .slick-next {
+    top: -25px;
+    right: 30px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 30px;
+  
+    color: var(--hover-color);
+  }
+  

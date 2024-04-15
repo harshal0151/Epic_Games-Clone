@@ -41,6 +41,20 @@ import  GameImg11 from "../../assets/featuredGames/asset 20.jpeg"
 import  GameImg12 from "../../assets/featuredGames/asset 13.jpeg"
 
 
+
+//popular Img
+import popImg1 from "../../assets/popular/asset 0.jpeg";
+import popImg2 from "../../assets/popular/asset 1.jpeg";
+import popImg3 from "../../assets/popular/asset 3.png";
+import popImg4 from "../../assets/popular/asset 4.jpeg";
+import popImg5 from "../../assets/popular/asset 2.jpeg";
+import popImg6 from "../../assets/popular/asset 5.jpeg";
+import popImg7 from "../../assets/popular/asset 6.jpeg";
+import popImg8 from "../../assets/popular/asset 8.gif";
+
+
+
+
 //Hero Slider 
 
 export const SliderData = [
@@ -185,7 +199,10 @@ export const GameData = [
     offer: "50%",
     desc: "Description for Game1",
     Price: 3999,
-    GameImg: GameImg1
+    GameImg: GameImg1,
+    GameImg1: GameImg2,
+    GameImg2: GameImg3,
+    type: "Action Games"
   },
   {
     GameName: "Game2",
@@ -193,7 +210,10 @@ export const GameData = [
     offer: "30%",
     desc: "Description for Game2",
     Price: 3499,
-    GameImg: GameImg2
+    GameImg: GameImg2,
+    GameImg1: GameImg4,
+    GameImg2: GameImg5,
+    type: "Action-Adventure Games"
   },
   {
     GameName: "Game3",
@@ -201,7 +221,10 @@ export const GameData = [
     offer: "20%",
     desc: "Description for Game3",
     Price: 1999,
-    GameImg: GameImg3
+    GameImg: GameImg3,
+    GameImg1: GameImg6,
+    GameImg2: GameImg7,
+    type: "Adventure Games"
   },
   {
     GameName: "Game4",
@@ -209,7 +232,10 @@ export const GameData = [
     offer: "50%",
     desc: "Description for Game4",
     Price: 3999,
-    GameImg: GameImg4
+    GameImg: GameImg4,
+    GameImg1: GameImg8,
+    GameImg2: GameImg9,
+    type: "Casual Games"
   },
   {
     GameName: "Game5",
@@ -217,7 +243,10 @@ export const GameData = [
     offer: "30%",
     desc: "Description for Game5",
     Price: 3499,
-    GameImg: GameImg5
+    GameImg: GameImg5,
+    GameImg1: GameImg4,
+    GameImg2: GameImg2,
+    type: "Action Games"
   },
   {
     GameName: "Game6",
@@ -225,7 +254,10 @@ export const GameData = [
     offer: "20%",
     desc: "Description for Game6",
     Price: 1999,
-    GameImg: GameImg6
+    GameImg: GameImg6,
+    GameImg1: GameImg2,
+    GameImg2: GameImg3,
+    type: "Adventure Games"
   },
   {
     GameName: "Game7",
@@ -233,7 +265,10 @@ export const GameData = [
     offer: "50%",
     desc: "Description for Game7",
     Price: 3999,
-    GameImg: GameImg7
+    GameImg: GameImg7,
+    GameImg1: GameImg2,
+    GameImg2: GameImg3,
+    type: "Action-Adventure Games"
   },
   {
     GameName: "Game8",
@@ -241,7 +276,10 @@ export const GameData = [
     offer: "30%",
     desc: "Description for Game8",
     Price: 3499,
-    GameImg: GameImg8
+    GameImg: GameImg8,
+    GameImg1: GameImg2,
+    GameImg2: GameImg3,
+    type: "Casual Games"
   },
   {
     GameName: "Game9",
@@ -249,7 +287,10 @@ export const GameData = [
     offer: "20%",
     desc: "Description for Game9",
     Price: 1999,
-    GameImg: GameImg9
+    GameImg: GameImg9,
+    GameImg1: GameImg12,
+    GameImg2: GameImg3,
+    type: "Action Games"
   },
   {
     GameName: "Game10",
@@ -257,7 +298,10 @@ export const GameData = [
     offer: "50% ",
     desc: "Description for Game10",
     Price: 3999,
-    GameImg: GameImg10
+    GameImg: GameImg10,
+    GameImg1: GameImg2,
+    GameImg2: GameImg3,
+    type: "Adventure Games"
   },
   {
     GameName: "Game11",
@@ -265,19 +309,102 @@ export const GameData = [
     offer: "30%",
     desc: "Description for Game11",
     Price: 3499,
-    GameImg: GameImg11
+    GameImg: GameImg11,
+    GameImg1: GameImg2,
+    GameImg2: GameImg3,
+    type: "Action-Adventure Games"
   },
   {
     GameName: "Game12",
     offerPrice: 2099,
     offer: "30%",
-    desc: "Description for Game11",
+    desc: "Description for Game12",
     Price: 3499,
-    GameImg: GameImg12
+    GameImg: GameImg12,
+     GameImg1: GameImg2,
+    GameImg2: GameImg3,
+    type: "Casual Games"
   },
   // Add more game objects as needed
 ];
 
+
+
+export const PopularData = [
+  {
+    GameName: "Game1",
+    offerPrice: 19.99,
+    offer: "50%",
+    desc: "Description for Game1",
+    Price: 3999,
+    GameImg: popImg1,
+    type: "Action Games"
+  },
+  {
+    GameName: "Game2",
+    offerPrice: 24.99,
+    offer: "30%",
+    desc: "Description for Game2",
+    Price: 3499,
+    GameImg: popImg2,
+    type: "Action-Adventure Games"
+  },
+  {
+    GameName: "Game3",
+    offerPrice: 14.99,
+    offer: "20%",
+    desc: "Description for Game3",
+    Price: 1999,
+    GameImg: popImg3,
+    type: "Adventure Games"
+  },
+  {
+    GameName: "Game4",
+    offerPrice: 19.99,
+    offer: "50%",
+    desc: "Description for Game4",
+    Price: 3999,
+    GameImg: popImg4,
+    type: "Casual Games"
+  },
+  {
+    GameName: "Game5",
+    offerPrice: 24.99,
+    offer: "30%",
+    desc: "Description for Game5",
+    Price: 3499,
+    GameImg: popImg5,
+    type: "Action Games"
+  },
+  {
+    GameName: "Game6",
+    offerPrice: 14.99,
+    offer: "20%",
+    desc: "Description for Game6",
+    Price: 1999,
+    GameImg: popImg6,
+    type: "Adventure Games"
+  },
+  {
+    GameName: "Game7",
+    offerPrice: 19.99,
+    offer: "50%",
+    desc: "Description for Game7",
+    Price: 3999,
+    GameImg: popImg7,
+    type: "Action-Adventure Games"
+  },
+  {
+    GameName: "Game8",
+    offerPrice: 19.99,
+    offer: "50%",
+    desc: "Description for Game7",
+    Price: 3999,
+    GameImg: popImg3,
+    type: "Action-Adventure Games"
+  },
+
+];
 
 
 

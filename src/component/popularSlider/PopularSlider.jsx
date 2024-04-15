@@ -1,12 +1,12 @@
 import React from "react";
-import { GameData } from "../constants";
-import "../featuredDIs/featured_dis.css";
+import { PopularData } from "../constants";
+import "../popularSlider/popular-slider.css"
 import Slider from "react-slick";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight ,faPlusCircle} from "@fortawesome/free-solid-svg-icons";
 
 
-const FeaturedDiscounts = () => {
+const PopularSlider = () => {
   const settings = {
     arrows: true,
     dots: false,
@@ -17,32 +17,31 @@ const FeaturedDiscounts = () => {
   };
 
   return (
-    <div className="Feature-container">
-      <div className="feature-title">
-        <a href="/brows">
+    <div className="PopularSlider-container">
+      <div className="PopularSlider-title">
+        <a href="/popular">
           <span>
-            Epic Sarving Spotlight{" "}
+          Most Popular{" "}
             <FontAwesomeIcon className="icon" icon={faAngleRight} />{" "}
           </span>{" "}
         </a>
       </div>
 
       <Slider {...settings}>
-        {GameData.map((f) => (
-          <div className="feature-card">
-            <div className="feature-img">
-              <img src={f.GameImg} alt="" />
+        {PopularData.map((p) => (
+          <div className="PopularSlider-card">
+            <div className="PopularSlider-img">
+              <img src={p.GameImg} alt="" />
               <div className="add-icon">
               <FontAwesomeIcon id="icon" icon={faPlusCircle} />
                 </div>             
             </div>
 
-            <div className="feature-content">
+            <div className="PopularSlider-content">
               <p>BASE GAME</p>
-              <span>{f.GameName}</span>
-              <div className="price-discount">
-                <button>-{f.offer}</button>
-                <h4>₹{f.Price}.00</h4>
+              <span>{p.GameName}</span>
+              <div className="PopularSlider-discount">
+                <h4>₹{p.Price}.00</h4>
               </div>
             </div>
           </div>
@@ -51,4 +50,4 @@ const FeaturedDiscounts = () => {
     </div>
   );
 };
-export default FeaturedDiscounts;
+export default PopularSlider;
