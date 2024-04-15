@@ -101,7 +101,7 @@ span{
 }
  .slider-list .list-card:hover,.list-card.hovered  {
   color: var(--secondary-color);
-  background-color: var(--hover-color);
+  background-color: rgba(255, 255, 255, 0.051); 
 }
 
  .slider-list .list-card img {
