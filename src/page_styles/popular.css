@@ -1,0 +1,96 @@
+.popular {
+    width: 100%;
+    height: 100%;
+  }
+ .popular .popular-heading{
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    font-weight: normal;
+ }
+  .popular-container {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .popular-container .brows-card {
+    height: 500px;
+    display: flex;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+  }
+  
+  .brows-img {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .brows-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease;
+  }
+  .brows-img:hover::before {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .brows-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .brows-content {
+    width: 100%;
+    height: 30%;
+    padding-top: 1rem;
+    margin: 0 0.5rem;
+  }
+  
+  .brows-content p {
+    font-size: 0.6rem;
+    color: var(--hover-color);
+  }
+  
+  .brows-content span {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: var(--secondary-color);
+  }
+  .price-discount {
+    display: flex;
+    gap: 2rem;
+    color: var(--secondary-color);
+    margin-top: 1rem;
+  }
+  
+  .price-discount button {
+    background-color: var(--link-color);
+    font-size: 0.7rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .price-discount button:hover {
+    background-color: #0056b3;
+  }
+  
+  .price-discount h4 {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
