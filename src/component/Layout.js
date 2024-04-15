@@ -1,4 +1,4 @@
-import React from "react";
+
 import Header from "./header/Header"
 import Footer from "../component/Footer/Footer"
 import Routers from "../router/Routers";
