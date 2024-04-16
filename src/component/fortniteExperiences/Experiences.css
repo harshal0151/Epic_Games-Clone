@@ -1,6 +1,15 @@
+.Experiences{
+    margin: 3rem 0;
+}
+.Experiences #z{
+    border: 1px solid red;
+    margin-bottom: -2rem;
+    font-size: 1.2rem;
+    
+}
+
 .deals-of-week{
     height: 100%;
-    margin: 3rem 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -42,24 +51,22 @@
 }
 
 .deals-of-week .card a p{
-    margin: 1rem 0;
+    
     font-size: 1.2rem;
     color: var(--secondary-color);
 }
 
-.deals-of-week .card .prices{
+.deals-of-week .card .experience_content{
     display: flex;
     
 }
 
 
-.deals-of-week .card .prices p{
+.deals-of-week .card .experience_content p{
     margin-right: 0.6rem;
-    margin-top: 0.5rem;
-
 }
 
-.deals-of-week .card .prices .discount-div{
+.deals-of-week .card .experience_content .discount-div{
     background-color: var(--link-color);
     color: var(--secondary-color);
     padding: 0.5em 0.60rem;
@@ -68,13 +75,13 @@
     align-self: center;
 }
 
-.deals-of-week .card .prices .cancle-amt{
-    font-size: 1.3rem;
+.deals-of-week .card .experience_content .ex-content{
+    font-size: 0.85rem;
     color: #f5f5f599;
-    text-decoration: line-through;
+    line-height: 1.5;
 }
 
-.deals-of-week .card .prices .discount-amt{
+.deals-of-week .card .experience_content .discount-amt{
     font-size: 1.3rem;
     color: var(--secondary-color);
     text-decoration: underline;
