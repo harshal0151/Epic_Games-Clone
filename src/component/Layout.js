@@ -3,7 +3,7 @@ import Header from "./header/Header"
 
 import Footer from "../component/Footer/Footer"
 import Routers from "../router/Routers";
-import Deals from "./deals-of-week/Deals";
+
 
 
 const Layout = () =>{

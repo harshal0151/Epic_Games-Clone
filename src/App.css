@@ -7,8 +7,9 @@
   --text-color: #6e7074;
   --font-name: "inter", sans-serif;
   --hover-color: #e7e7e751;
-  --link-color:#097cf2;
+  
   --link-color:#0078f2;
+  
 }
 
 
@@ -21,7 +22,7 @@
 
 body {
   font-family: var(--font-name);
-  background-color: #121212;
+  background-color:#121212;
   width: 100%;
   height: 100vh;
 }
