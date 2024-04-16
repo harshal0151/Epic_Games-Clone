@@ -56,7 +56,7 @@ const Deals = () => {
             <p>Check out all the deals for this week.</p>
           </a>
           <div className="prices">
-            <p className="discount-amt">Browse</p>
+            <p className="discount-amt browse_underline">Browse</p>
           </div>
         </div>
       </section>
