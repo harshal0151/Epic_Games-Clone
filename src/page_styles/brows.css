@@ -2,10 +2,70 @@
   width: 100%;
   height: 100%;
 }
-
-.popular{
-  margin: 3rem 0;
+.brows h3{
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-left:1.2rem ;
 }
+
+.popular {
+  margin: 1rem 0 5rem 0;
+  width: 100%;
+  height: 280px;
+  padding: 8px;
+}
+.popular-card {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.067);
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
+.popular-card:hover {
+  background-color: rgba(255, 255, 255, 0.242); 
+}
+
+
+.popular .popular-img {
+  position: relative;
+  width: 100%;
+  height: 190px;
+}
+
+.popular .popular-img img {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.image1 {
+  top: 0;
+  left: 70px;
+  z-index: 3;
+}
+
+.image2 {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0.4;
+}
+
+.image3 {
+  top: 0;
+  left: 135px;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.popular-text{
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
 .brows .show-list {
   display: flex;
   align-items: center;
@@ -20,16 +80,14 @@
   background-color: transparent;
   border-radius: 2px;
   padding: 5px 0px 5px 8px;
- 
 }
-option{
+option {
   background-color: #121212;
   border: none;
-  
 }
 .brows-container {
   width: 78%;
-  margin:1rem 0;
+  margin: 1rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -46,12 +104,10 @@ option{
   position: relative;
   width: 100%;
   height: 70%;
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease;
   border-radius: 5px;
   overflow: hidden;
-  
 }
-
 
 .brows-img::before {
   content: "";
@@ -61,19 +117,15 @@ option{
   width: 100%;
   height: 100%;
   transition: background-color 0.3s ease;
-  
 }
 .brows-img:hover::before {
-  background-color: rgba(255, 255, 255, 0.15); 
+  background-color: rgba(255, 255, 255, 0.15);
 }
-
 
 .brows-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
-
 }
 
 .brows-content {
@@ -101,7 +153,7 @@ option{
 }
 
 .price-discount button {
-  background-color: #007bff;
+  background-color: var(--link-color);
   font-size: 0.7rem;
   color: #fff;
   border: none;
@@ -120,12 +172,11 @@ option{
   font-weight: normal;
 }
 
-.game-container{
+.game-container {
   display: flex;
-
 }
 
-.filter-container{
+.filter-container {
   width: 20%;
   background-color: #0056b3;
 }

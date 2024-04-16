@@ -2,15 +2,15 @@ import React from "react";
 import Slider from "react-slick";
 import "../page_styles/brows.css";
 import { GameData } from "../component/constants";
-import {  faPlusCircle} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {  faPlusCircle} from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Brows = () => {
   const settings = {
     arrows: true,
     dots: false,
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 5,
     pauseOnHover: false,
   };
@@ -19,30 +19,27 @@ const Brows = () => {
   return (
     <>
       <div className="brows">
+      <h3>Popular Genres</h3>
 
-        {/* <div className="popular">
-        <Slider {...settings}>
-        {GameData.map((f) => (
-          <div className="feature-card">
-            <div className="feature-img">
-              <img src={f.GameImg} alt="" />
-              <div className="add-icon">
-              <FontAwesomeIcon id="icon" icon={faPlusCircle} />
-                </div>             
-            </div>
-
-            <div className="feature-content">
-              <p>BASE GAME</p>
-              <span>{f.GameName}</span>
-              <div className="price-discount">
-                <button>- {f.offer}</button>
-                <h4>₹{f.Price}.00</h4>
-              </div>
-            </div>
+        <Slider {...settings}> 
+        {GameData.map ((p) => (
+         <div className="popular">
+         <div  class="popular-card" >
+         <div className="popular-img">
+          <img src={p.GameImg}  alt="Image1" class="image1" />
+          <img src={p.GameImg1}  alt="Image1" class="image2" />
+          <img src={p.GameImg2}  alt="Image1" class="image3" />
+         </div >
+         <div className="popular-text">
+          <p>{p.type}</p>
+          </div>
+         </div>
+         
           </div>
         ))}
-      </Slider>
-        </div> */}
+       
+        </Slider>
+        
 
        <div className="show-list">
        <p>Shows:</p>
@@ -67,7 +64,7 @@ const Brows = () => {
                 <p>BASE GAME</p>
                 <span>{g.GameName}</span>
                 <div className="price-discount">
-                  <button>- {g.offer}</button>
+                  <button>-{g.offer}</button>
                   <h4>₹{g.Price}.00</h4>
                 </div>
               </div>
@@ -79,7 +76,6 @@ const Brows = () => {
          <p>Hello</p>
         </div>
         </div>
-      
       </div>
     </>
   );

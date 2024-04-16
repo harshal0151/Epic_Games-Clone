@@ -4,7 +4,9 @@ import React from "react";
 import Heroslider from "../component/Sliders/Heroslider";
 import FeaturedDiscounts from "../component/featuredDIs/FeaturedDis";
 import Deals from "../component/deals-of-week/Deals";
+import PopularSlider from "../component/popularSlider/PopularSlider";
 import FreeGames from "../component/freeGames/FreeGames";
+<<<<<<<<< Temporary merge branch 1
 
 const Home = () =>{
     return(
@@ -13,6 +15,7 @@ const Home = () =>{
        <FeaturedDiscounts/>
        <Deals/>
        <FreeGames/>
+       <PopularSlider/>
         </>
             
           
