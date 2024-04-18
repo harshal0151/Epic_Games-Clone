@@ -6,6 +6,7 @@ import Home from '../page/Home';
 import Brows from "../page/Brows"
 import News from '../page/News';
 import Popular from '../page/Popular';
+import FreeGame from '../page/FreeGame';
 
 const Routers = () => {
   return (
@@ -15,6 +16,7 @@ const Routers = () => {
         <Route path="/brows" element={<Brows />} />
         <Route path="/news" element={<News />} />
         <Route path="/popular" element={<Popular />} />
+        <Route path="/freeGames" element={<FreeGame />} />
        
       </Routes>
     </Router>
