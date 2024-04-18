@@ -1,11 +1,7 @@
 import React from "react";
 import "./Experiences.css"
+
 import deals1 from "../../assets/Experience-img/ex1.avif";
-
-
-
-
-
 import deals2 from "../../assets/Experience-img/ex2.avif";
 import deals3 from "../../assets/Experience-img/ex3.avif";
 

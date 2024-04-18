@@ -1,0 +1,105 @@
+#NewsComponent{
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+}
+#NewsComponent h2{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-weight: normal;
+    color: #fff;
+}
+
+#NewsComponent .news-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3rem;
+}
+
+#NewsComponent .news-cards .news-card{
+    width: 49%;
+    height: 100%;
+}
+
+#NewsComponent .news-cards .news-card .news-img{
+    width: 100%;
+}
+
+#NewsComponent .news-cards .news-card .news-img img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#NewsComponent .news-cards .news-card .news-content{
+    position: relative;
+    width: 100%;
+    height: 8rem;
+
+}
+
+
+#NewsComponent .news-cards .news-card .news-content span{
+    color: var(--text-color)!important;
+    font-weight: bolder;
+    font-size: 0.6rem;
+    margin: 1rem 0;
+}
+
+#NewsComponent .news-cards .news-card .news-content span+h3{
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+#NewsComponent .news-cards .news-card .news-content h3+p{
+    font-size: 0.9rem;
+    margin: 1rem 0;
+}
+
+#NewsComponent .news-cards .news-card .news-content a{
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #202020;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+#NewsComponent .news-cards .news-card .news-content a:hover{
+    text-decoration-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+#NewsComponent .news-cards+.horizonal-line{
+    margin: 1rem 0;
+    border: 1px solid var(--primary-color);
+}
+
+#NewsComponent .news-lists{
+    width: 100%;
+}
+
+#NewsComponent .news-list .news-list-flex{
+    display: flex;
+    width: 100%; 
+    height: 100%;
+}
+
+#NewsComponent .news-list .news-list-flex .news-list-img{
+    width: 17%;
+    margin: 1rem;
+}
+
+#NewsComponent .news-list .news-list-flex  .news-list-img img{
+    object-fit: contain;
+    width: 100%;    
+    border-radius: 5px;
+   
+}
+
+#NewsComponent .news-list .news-list-flex .news-list-content{
+
+}
