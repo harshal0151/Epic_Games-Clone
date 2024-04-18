@@ -77,4 +77,13 @@
 .deals-of-week .card .prices .discount-amt{
     font-size: 1.3rem;
     color: var(--secondary-color);
+    text-decoration: underline;
+    text-decoration-color: #202020;
+    text-decoration-thickness: 1px;
+    
+}
+
+.deals-of-week .card .prices .browse_underline:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;    
 }

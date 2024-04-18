@@ -1,0 +1,81 @@
+.Experiences{
+    margin: 4rem 0;
+    width: 100%;
+    height: 100%;
+}
+.Experiences #title{
+    
+    margin-bottom: -2rem;
+    font-size: 1.2rem;
+    
+}
+
+.deals-of-week{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.deals-of-week .card{
+    width: 31.5%;
+    position: relative;
+    
+}
+.deals-of-week .card .card-img{
+    width: 100%;   
+    position: relative; 
+}
+
+.deals-of-week .card .card-img .card_plus_icon:hover{
+    display: none;
+}
+
+
+
+.deals-of-week .card .card-img img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.deals-of-week .card a p{
+    
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.deals-of-week .card .experience_content{
+    display: flex;
+    
+}
+
+
+.deals-of-week .card .experience_content p{
+    margin-right: 0.6rem;
+}
+
+
+
+.deals-of-week .card .experience_content .ex-content{
+    font-size: 0.85rem;
+    color: #f5f5f599;
+    line-height: 1.5;
+}
+
+.deals-of-week .card .discover{
+    font-size: 1.4rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    position: absolute;
+    top: 100%;
+    text-decoration-color: #202020;
+}
+
+.deals-of-week .card .discover:hover{
+    text-decoration-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+

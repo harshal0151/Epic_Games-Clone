@@ -1,7 +1,11 @@
+import React from "react";
 
 import Header from "./header/Header"
+
 import Footer from "../component/Footer/Footer"
 import Routers from "../router/Routers";
+
+
 
 const Layout = () =>{
     return(
@@ -9,7 +13,10 @@ const Layout = () =>{
            <Header/>
           <div className="routes">
             <Routers/>
-          </div>   
+            
+          </div>
+
+          
            <Footer/>
         </>
     )
