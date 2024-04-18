@@ -1,6 +1,6 @@
 .PopularSlider-container {
     width: 100%;
-    margin: 5rem 0;
+    margin: 8rem 0;
   }
   
   .PopularSlider-container .PopularSlider-title {
@@ -11,8 +11,9 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    margin: 1rem;
-    font-size: 1.1rem;
+    margin-bottom: -0.01rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
   }
   .PopularSlider-container .PopularSlider-title .icon {
     font-size: 0.8rem;

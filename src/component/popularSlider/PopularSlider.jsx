@@ -20,7 +20,7 @@ const PopularSlider = () => {
     <div className="PopularSlider-container">
       <div className="PopularSlider-title">
         <a href="/popular">
-          <span>
+          <span >
           Most Popular{" "}
             <FontAwesomeIcon className="icon" icon={faAngleRight} />{" "}
           </span>{" "}

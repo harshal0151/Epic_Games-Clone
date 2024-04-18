@@ -17,9 +17,8 @@ const Home = () =>{
        <Deals/>
        <FreeGames/>
         <Experiences/>
-
-
        <PopularSlider/>
+       
         </>
             
           

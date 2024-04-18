@@ -18,7 +18,7 @@ const FreeGames =()=>{
                     </div>
                     <span>Free Games</span>
                     </div>
-                    <div className="view_btn"><span>VIEW MORE</span></div>
+                    <div className="view_btn"><a href="/freeGames"><span > VIEW MORE</span></a></div>
                 </div>
 
                 <div className="Free_cards">
